@@ -1,3 +1,108 @@
 [main]
 host = https://www.transifex.com
+type = PO
 
+[lxdesl.lxdm]
+file_filter = lxdm/po/<lang>.po
+source_file = lxdm/po/lxdm.pot
+source_lang = en
+
+[lxdesl.lxmenu-data]
+file_filter = lxmenu-data/po/<lang>.po
+source_file = lxmenu-data/po/lxmenu-data.pot
+source_lang = en
+
+[lxdesl.lxmenu-data]
+file_filter = lxmenu-data/po/<lang>.po
+source_file = lxmenu-data/po/lxmenu-data.pot
+source_lang = en
+
+[lxdesl.lxkb_config]
+file_filter = lxkb_config/po/<lang>.po
+source_file = lxkb_config/po/lxkb_config.pot
+source_lang = en
+
+[lxdesl.lxappearance]
+file_filter = lxappearance/po/<lang>.po
+source_file = lxappearance/po/lxappearance.pot
+source_lang = en
+
+[lxdesl.lxmusic]
+file_filter = lxmusic/po/<lang>.po
+source_file = lxmusic/po/lxmusic.pot
+source_lang = en
+
+[lxdesl.lxappearance-obconf]
+file_filter = lxappearance-obconf/po/<lang>.po
+source_file = lxappearance-obconf/po/lxappearance-obconf.pot
+source_lang = en
+
+[lxdesl.lxpolkit]
+file_filter = lxpolkit/po/<lang>.po
+source_file = lxpolkit/po/lxpolkit.pot
+source_lang = en
+
+[lxdesl.lxshortcut]
+file_filter = lxshortcut/po/<lang>.po
+source_file = lxshortcut/po/lxshortcut.pot
+source_lang = en
+
+[lxdesl.lxsession-edit]
+file_filter = lxsession-edit/po/<lang>.po
+source_file = lxsession-edit/po/lxsession-edit.pot
+source_lang = en
+
+[lxdesl.lxlauncher]
+file_filter = lxlauncher/po/<lang>.po
+source_file = lxlauncher/po/lxlauncher.pot
+source_lang = en
+
+[lxdesl.lxinput]
+file_filter = lxinput/po/<lang>.po
+source_file = lxinput/po/lxinput.pot
+source_lang = en
+
+[lxdesl.gpicview]
+file_filter = gpicview/po/<lang>.po
+source_file = gpicview/po/gpicview.pot
+source_lang = en
+
+[lxdesl.lxterminal]
+file_filter = lxterminal/po/<lang>.po
+source_file = lxterminal/po/lxterminal.pot
+source_lang = en
+
+[lxdesl.lxscreenshot]
+file_filter = lxscreenshot/po/<lang>.po
+source_file = lxscreenshot/po/lxscreenshot.pot
+source_lang = en
+
+[lxdesl.lxpanel]
+file_filter = lxpanel/po/<lang>.po
+source_file = lxpanel/po/lxpanel.pot
+source_lang = en
+
+[lxdesl.ldm-gtk-builder-greeter]
+file_filter = ldm-gtk-builder-greeter/po/<lang>.po
+source_file = ldm-gtk-builder-greeter/po/lightdm-gtk-builder-greeter.pot
+source_lang = en
+
+[lxdesl.lxpanel-plugins-batt]
+file_filter = lxpanel-plugins/batt/po/<lang>.po
+source_file = lxpanel-plugins/batt/po/lxpanel-batt.pot
+source_lang = en
+
+[lxdesl.lxpanel-plugins-menu_2]
+file_filter = lxpanel-plugins/menu_2/po/<lang>.po
+source_file = lxpanel-plugins/menu_2/po/lxpanel-menu_2.pot
+source_lang = en
+
+[lxdesl.lxpanel-plugins-drives]
+file_filter = lxpanel-plugins/drives/po/<lang>.po
+source_file = lxpanel-plugins/drives/po/lxpanel-drive.pot
+source_lang = en
+
+[lxdesl.lxpanel-plugins-netstat]
+file_filter = lxpanel-plugins/netstat/po/<lang>.po
+source_file = lxpanel-plugins/netstat/po/lxpanel-netstat.pot
+source_lang = en
