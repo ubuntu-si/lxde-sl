@@ -2,6 +2,16 @@
 host = https://www.transifex.com
 type = PO
 
+[lxdesl.libfm]
+file_filter = libfm/po/<lang>.po
+source_file = libfm/po/libfm.pot
+source_lang = en
+
+[lxdesl.pcmanfm]
+file_filter = pcmanfm/po/<lang>.po
+source_file = pcmanfm/po/pcmanfm.pot
+source_lang = en
+
 [lxdesl.lxdm]
 file_filter = lxdm/po/<lang>.po
 source_file = lxdm/po/lxdm.pot

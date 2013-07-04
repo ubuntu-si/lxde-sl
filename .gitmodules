@@ -76,3 +76,9 @@
 [submodule "lxde-locale-sl"]
 	path = lxde-locale-sl
 	url = git@github.com:ubuntu-si/lxde-locale-sl.git
+[submodule "pcmanfm"]
+	path = pcmanfm
+	url = git://pcmanfm.git.sourceforge.net/gitroot/pcmanfm/pcmanfm
+[submodule "libfm"]
+	path = libfm
+	url = git://pcmanfm.git.sourceforge.net/gitroot/pcmanfm/libfm
