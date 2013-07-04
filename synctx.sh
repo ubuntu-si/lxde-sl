@@ -1,6 +1,10 @@
-for resource in deadbeef devtools gpicview ldm-gtk-builder-greeter lxadmin lxappearance lxappearance-obconf lxde lxde-common lxde-common-qt lxde-icon-theme lxdm lximage-qt lxinput lxinput-qt lxkb_config lxlauncher lxmenu-data lxmusic lxpanel lxpanel-plugins lxpanel-qt lxpanel-xmms2 lxpanel2 lxpolkit lxrandr lxrandr-qt lxscreenshot lxsession lxsession-edit lxshortcut lxsysmon lxtask lxterminal menu-cache obconf-qt; do
-  echo "$resource/po/$resource.pot"
-  tx set --auto-local -r $resource "/$resource.po" \
-    --source-language=en \
-    --source-file "$resource/po/$resource.pot" --execute
+## Push source files
+tx push -s --skip
+## Pull translated files
+tx pull -l sl --force
+mkdir -p lxde-locale-sl/usr/share/locale/sl/LC_MESSAGES/
+for i in */po/sl.po; do
+  arr=(${i/\// })
+  echo $arr
+  msgfmt -cv $i -o ./lxde-locale-sl/usr/share/locale/sl/LC_MESSAGES/$arr.mo
 done

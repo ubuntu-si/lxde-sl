@@ -7,6 +7,11 @@ file_filter = lxdm/po/<lang>.po
 source_file = lxdm/po/lxdm.pot
 source_lang = en
 
+[lxdesl.lxdm]
+file_filter = lxdm/po/<lang>.po
+source_file = lxdm/po/lxdm.pot
+source_lang = en
+
 [lxdesl.lxmenu-data]
 file_filter = lxmenu-data/po/<lang>.po
 source_file = lxmenu-data/po/lxmenu-data.pot
